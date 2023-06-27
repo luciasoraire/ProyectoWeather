@@ -1,0 +1,64 @@
+form{
+    z-index: 19;
+    position: absolute;
+    top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    border-radius: 100px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.219);
+    color: white;
+}
+
+label{
+    margin-bottom: -10px;
+}
+
+.labels{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+span.enviar{
+    color: #fff;
+}
+
+
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+select{
+    border: 2px solid #635B34;
+    outline: none;
+    border-radius: 50px;
+    border: none;
+    padding: 10px;
+    margin: 0 6px;
+    
+}
+
+.condiciones{
+    font-weight: 100;
+    font-size: 18px;
+}
+.modal{
+    z-index: 111;
+}
+.videoRegistro{
+    background-color: rgba(0, 0, 0, 0.658);
+}
+.gen{
+    margin-top: 10px;
+}
+input{
+    border-radius: 50px;
+    border: none;
+    padding: 10px;
+    margin: 0 6px;
+}

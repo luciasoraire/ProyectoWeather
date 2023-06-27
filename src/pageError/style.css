@@ -1,0 +1,53 @@
+.error404{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 20% 60% 10%;
+    background-color: #767a62;
+}
+
+.naverror404{
+    grid-column: 1/3;
+
+}
+
+.tituloerror404{
+    grid-column: 1/34;
+    grid-row: 2/3;
+}
+
+.mainerror404{
+    grid-column: 1/2;
+    grid-row: 2/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+
+    
+}
+.barraerror404{
+    grid-column: 2/3;
+    grid-row: 2/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footererror404{
+    grid-column: 1/4;
+}
+
+.titleerror404{
+    font-size: 100px;
+    text-align: center;
+    color: white;
+
+}
+.titleerror404main, .textoerror404main{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+
+}
