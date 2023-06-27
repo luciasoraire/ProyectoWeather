@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+#  Weather 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+>*Esta plataforma nos brinda la condición climática de cualquier parte del mundo utilizando API.*
 
-### `npm start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> *Accedé a la demo del proyecto [aquí](https://proyectoweatherapi.netlify.app)*
+> 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br>
 
-### `npm test`
+### Requerimientos del proyecto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Estructura general del sitio
 
-### `npm run build`
+1. Crear un [Grid-Layout](https://proyectoweatherapi.netlify.app/error404) en el proyecto de react, que contenga cabecera, menú, contenido, barra lateral y pie de página (como requisito mínimo).
+    
+1. Se deberá implementar el hook useState, mínimamente 5 veces.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Utilizar el hook useEffect, mínimamente 2 veces.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Realizar enrutamiento generando 5 páginas o más, desde la página home o de inicio, se deberá poder acceder a dichos enrutamientos con links desde el menú.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Utilizar renderizado Condicional en 2 partes o más y props para comunicar entre diferentes componentes.
 
-### `npm run eject`
+1. Realizar una sesión de [registro](https://proyectoweatherapi.netlify.app/registro) usando formulario.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Realizar un [login](https://proyectoweatherapi.netlify.app/login) usando formulario.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Una de las [páginas](https://proyectoweatherapi.netlify.app/clima) creadas deberá contener productos (de la temática elegida) los cuales serán subministrados por un api, utilizando Axios.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Subir el proyecto a [GitHub](https://github.com/luciasoraire/ProyectoWeather) y a una pagina [gratuita](https://proyectoweatherapi.netlify.app) para que el proyecto pueda ser desplegado en la misma
+<br>
 
-## Learn More
+### Librerías utilizadas
+- Axios
+- [Open Weather Map](https://openweathermap.org/api)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Recursos utilizados
+- Videos tomados de [Pexels](https://www.pexels.com/es-es/)
 
-### Code Splitting
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Pasos para probar este proyecto
+*Utiliza los siguientes comandos para descargar una copia del proyecto*
+1. Crea una carpeta
+1. Abre Git Bash
+1. Coloca:  `git clone https://github.com/luciasoraire/ProyectoWeather.git`
+2. Coloca:  `npm install`
+3. Coloca:  `npm start`
 
-### Analyzing the Bundle Size
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Autor
+- [Soraire Lucía](https://github.com/luciasoraire)
