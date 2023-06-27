@@ -69,9 +69,7 @@ const eliminar=()=>{
           <li className="itemnav">Clima</li>{" "}
         </Link>
 
-        <Link to="/miembros">
-          <li className="itemnav">Miembros</li>
-        </Link>
+
         <Link to="/" ><li className="itemnav" onClick={eliminar}>Cerrar sesión</li></Link>
       
       </ul>

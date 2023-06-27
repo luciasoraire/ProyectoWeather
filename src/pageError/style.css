@@ -12,8 +12,15 @@
 }
 
 .tituloerror404{
-    grid-column: 1/34;
+    grid-column: 1/3;
     grid-row: 2/3;
+
+}
+
+div.tituloerror404{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .mainerror404{
@@ -43,11 +50,13 @@
     text-align: center;
     color: white;
 
+
 }
 .titleerror404main, .textoerror404main{
     color: white;
     font-size: 30px;
     text-align: center;
+
 
 
 }
