@@ -16,6 +16,7 @@ function App() {
           <Route path="/registro" element={<Registro></Registro>} />
           <Route path="/login" element={<Login></Login>} />
           <Route path="*" element={<Error404></Error404>} />
+          <Route path="/error404" element={<Error404></Error404>} />
         </Routes>
       
     </div>
